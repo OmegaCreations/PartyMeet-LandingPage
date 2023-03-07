@@ -1,0 +1,28 @@
+// Initial styling setup
+
+//tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Colors
+$white: #FFF;
+$orange: #E77C40;
+$orange-sh-1: #cc5a1a;
+$orange-sh-2: #f1b18e;
+$primary: #262626;
+$light: #FAFAFA;
+
+// Roboto font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+
+  background-color: #262626;
+}

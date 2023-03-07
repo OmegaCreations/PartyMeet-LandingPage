@@ -1,0 +1,21 @@
+// Colors
+$white: #FFF;
+$orange: #E77C40;
+$orange-sh-1: #cc5a1a;
+$orange-sh-2: #f1b18e;
+$primary: #262626;
+$light: #FAFAFA;
+
+.socials {
+    width: 180px;
+    font-size: 24px;
+
+    a {
+        margin-left: 5px;
+        transition: 200ms;
+        &:hover {
+            color: $orange-sh-1;
+            cursor: pointer;
+        }
+    }
+}

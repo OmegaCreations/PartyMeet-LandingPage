@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "vite.config.ts",
+    "src/entry-server.tsx",
+    "src/vite-env.d.ts",
+    "src/components/App.tsx",
+    "src/components/Header.tsx",
+    "src/components/Hero.tsx",
+    "src/components/About.tsx",
+    "src/components/MailForm.tsx",
+    "src/components/Reviews.tsx",
+    "src/components/Newsletter.tsx",
+    "src/components/Footer.tsx",
+    "src/components/Loader.tsx"
+  ]
+}

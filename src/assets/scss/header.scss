@@ -1,0 +1,35 @@
+// Colors
+$white: #FFF;
+$orange: #E77C40;
+$orange-sh-1: #cc5a1a;
+$orange-sh-2: #f1b18e;
+$primary: #262626;
+$light: #FAFAFA;
+
+// Navbar buttons
+.nav-btn {
+  color: $white;
+  font-weight: 700;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+
+  border-radius: 5px;
+}
+
+// Logo / brand tyling
+.navbar-brand{
+  font-weight: 700;
+  font-size: 24px;
+  color: $white;
+  line-height: 32px;
+}
+
+// Nabar links
+.nav-link {
+    color: $light;
+    font-size: 14px;
+    font-weight: 400;
+}
+
