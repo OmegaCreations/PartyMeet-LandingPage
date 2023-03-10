@@ -29,7 +29,7 @@ Copy project and then run the following command inside its directory:
     
 ## Variables
 
-To run this project, specifically run email.js forms you need to add in MailForm.tsx your own data from plugins website.
+To run this project, specifically to run email.js forms you need to add in MailForm.tsx your own data from plugins website.
 
 `TEMPLATE ID`
 
