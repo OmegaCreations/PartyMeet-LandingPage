@@ -14,7 +14,7 @@ const About = () => {
     return(
         <div className="bg-[#FAFAFA] p-12 w-100 m-0 max-w-100">
             <div className="mt-32">
-                <div className="flex flex-col-reverse md:flex-row items-right content-start justify-start">
+                <div className="flex flex-col-reverse md:flex-row items-right content-start justify-start" id="about-app">
                     <div className="max-w-xl mt-8 md:mt-5 justify-center md:justify-none ml-0 p-2 md:ml-12">
                         <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center md:text-left fade" direction="left">Coś dla każdego</h2>
                         <p className="transition duration-300 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] md:max-w-3xl font-medium">Niezależnie czy wybierasz się na imprezę po raz pierwszy czy też jesteś ich koneserem - dzięki aplikacji PartyMeet znajdziesz imprezy dostosowane do ciebie, a także samemu możesz zostać hostem, zaszaleć z wyobraźnią i zgarniać nagrody za topkę w rankingu!</p>
@@ -38,7 +38,7 @@ const About = () => {
             </div>
 
             <div className="mt-32">
-                <div className="flex flex-col-reverse md:flex-row items-right content-start justify-start">
+                <div className="flex flex-col-reverse md:flex-row items-right content-start justify-start" id="earnings">
                     <div className="max-w-xl mt-8 md:mt-5 justify-center md:justify-none ml-0 p-2 md:ml-12">
                         <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center md:text-left fade" direction="left">Całkowicie nowe możliwości zarobku</h2>
                         <p className="transition duration-300 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] md:max-w-3xl font-medium">Posiadasz właśną nieruchomość albo chciałbyś szybko zarobić? Dzięki aplikacji PartyMeet możesz tymczasowo wynająć mieszkanie pod imprezę i zgarnąć szybki przelew!<br></br><br></br>Natomiast jeśli chcesz robić to regularnie, pamiętaj o odpowiednim przystosowaniu mieszkania do imprez, zostań czołowym hostem i pnij się na szczyt rankingu!</p>
@@ -64,7 +64,7 @@ const About = () => {
 
             <div className="mt-32 mb-32">
                 <div className="flex flex-col items-center content-center justify-center">
-                    <div className="max-w-3xl mt-8 md:mt-5 justify-center">
+                    <div className="max-w-3xl mt-8 md:mt-5 justify-center" id="contact">
                         <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center fade" direction="left">Dowiedz się więcej!</h2>
                         <p className="transition duration-200 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] text-Left font-medium">Jeżeli chcesz dowiedzieć się więcej o naszej aplikacji zachęcamy do subskrybcji naszego partylettera, a także pobrania poniżej naszego whitepaper’a, w którym znajdziesz wszelkie odpowiedzi na nurtujące cię pytania! Natomiast jeżeli jesteś dalej głodny wiedzy, z przyjemnością odpowiemy na każdą twoją wiadomość! </p>
                     </div>

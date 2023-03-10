@@ -41,9 +41,9 @@ const Header = () => {
 					</button>
 				</div>
 				<ul className="hidden lg:ml-[75px] lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#">Magia Aplikacji</a></li>
-					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#">Zarabiaj</a></li>
-					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#">Kontakt</a></li>
+					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#about-app">Magia Aplikacji</a></li>
+					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#earnings">Zarabiaj</a></li>
+					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#contact">Kontakt</a></li>
 				</ul>
 				<a className="nav-btn lg:flex hidden lg:inline-block lg:ml-auto lg:mr-12 transition duration-200" href="#">Zaloguj się</a>
 				<a className="hover:bg-[#f1b18e] nav-btn lg:flex hidden lg:inline-block w-[175px] lg:mr-24 h-[60px] bg-[#E77C40] transition duration-200" href="#">Zarejestruj się!&emsp;<BsArrowRightShort size={24} fontWeight={700}/></a>
@@ -64,13 +64,13 @@ const Header = () => {
 					<div>
 						<ul>
 							<li className="mb-1">
-								<a onClick={() => setToggle(!toggle)} className="block p-4 text-sm font-semibold text-gray-400 hover:bg-slate-50 hover:text-[#E77C40] rounded" href="#">Magia Aplikacji</a>
+								<a onClick={() => setToggle(!toggle)} className="block p-4 text-sm font-semibold text-gray-400 hover:bg-slate-50 hover:text-[#E77C40] rounded" href="#about-app">Magia Aplikacji</a>
 							</li>
 							<li onClick={() => setToggle(!toggle)} className="mb-1">
-								<a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-slate-50 hover:text-[#E77C40] rounded" href="#">Zarabiaj</a>
+								<a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-slate-50 hover:text-[#E77C40] rounded" href="#earnings">Zarabiaj</a>
 							</li>
 							<li onClick={() => setToggle(!toggle)} className="mb-1">
-								<a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-slate-50 hover:text-[#E77C40] rounded" href="#">Kontakt</a>
+								<a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-slate-50 hover:text-[#E77C40] rounded" href="#contact">Kontakt</a>
 							</li>
 						</ul>
 					</div>
