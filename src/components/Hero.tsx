@@ -11,8 +11,8 @@ const Hero = () => {
                 <h1 className="font-black text-white uppercase text-[32px] sm:text-[48px] md:text-[64px]">
                     Wznosimy imprezy na wyższy level!
                 </h1>
-                <h2 className="text-white font-bold text-[14px] md:text-[20px] max-w-lg">
-                    Wynajmij miejsce na imprezę, znajdź eventy w okolicy, poznaj nowych znajomych w aplikacji PartyMeet!
+                <h2 className="text-[#fafafa] font-bold text-[14px] md:text-[20px] max-w-lg">
+                    Dzięki aplikacji Partymeet wynajmiesz miejsce na imprezę, najdziesz najgorętsze eventy w okolicy, a także poznasz nowych znajomych!
                 </h2>
                 <div className="buttons mt-12">
                 <button type="button" 

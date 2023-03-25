@@ -14,31 +14,25 @@ export default function Reviews(){
                 <p className="max-w-2xl mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] text-center font-medium">Poznaj naszą aplikację i wystaw nam opinię. Doceniamy każdą możliwość stania się lepszym miejscem rozrywki!</p>
                 <div className="flex flex-col xl:flex-row mt-8 justify-center content-center items-center md:justify-none">
                     <div className="w-auto max-w-md mt-8 flex flex-col sm:flex-row items-center justify-center">
-                        <img src={Placeholder} alt="placeholder" className="w-100 sm:w-[120px] h-auto"/>
+                        <img src={Placeholder} alt="reviewer logo" className="w-100 sm:w-[120px] h-auto"/>
                         <div className="ml-8 text-center md:text-left">
                             <h1 className="font-bold text-[#262626] mt-6 text-[24px]">Nazwa fundacji</h1>
                             <h2 className="text-[12px] font-semibold text-[#737373] mt-2">Podpis o fundacji</h2>
                             <p className="review mt-6 font-medium text-[#737373] text-[16px]">
                                 <span className="text-[#E77C40]">,,</span>
-                                This proved to be impossible 
-                                using concepts of space and 
-                                time. Einstein new view of 
-                                time first and then
+                                Przykładowa recenzja fundacji
                                 <span className="text-[#E77C40]">’’</span>
                             </p>
                         </div>
                     </div>
                     <div className="w-auto max-w-md mt-8 flex flex-col sm:flex-row items-center justify-center">
-                        <img src={Placeholder} alt="placeholder" className="w-100 sm:w-[120px] h-auto"/>
-                        <div className="ml-8 text-center md:text-left">
+                        <img src={Placeholder} alt="reviewer logo" className="w-100 sm:w-[120px] h-auto"/>
+                        <div className="sm:ml-8 text-center md:text-left">
                             <h1 className="font-bold text-[#262626] mt-6 text-[24px]">Nazwa fundacji</h1>
                             <h2 className="text-[12px] font-semibold text-[#737373] mt-2">Podpis o fundacji</h2>
                             <p className="review mt-6 font-medium text-[#737373] text-[16px]">
                                 <span className="text-[#E77C40]">,,</span>
-                                This proved to be impossible 
-                                using concepts of space and 
-                                time. Einstein new view of 
-                                time first and then
+                                Przykładowa recenzja fundacji
                                 <span className="text-[#E77C40]">’’</span>
                             </p>
                         </div>

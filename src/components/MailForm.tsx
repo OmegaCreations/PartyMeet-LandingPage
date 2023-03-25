@@ -56,7 +56,7 @@ const MailForm = () => {
         
                 </form>
                 <div className="w-auto max-w-xl md:ml-6 my-4">
-                    <img src={LetterGif} alt="letter gif" />
+                    <img src={LetterGif} alt="letter sending gif" />
                 </div>
             </div>
             

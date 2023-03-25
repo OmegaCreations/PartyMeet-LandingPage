@@ -14,7 +14,7 @@ const App = () => {
 
   useEffect(() => {
     
-    let timer = setTimeout(() => setLoaded(true), 2500);
+    let timer = setTimeout(() => setLoaded(true), 3000);
 
     return () => {
       clearTimeout(timer);

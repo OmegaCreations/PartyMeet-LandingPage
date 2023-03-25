@@ -16,11 +16,11 @@ const About = () => {
             <div className="mt-32">
                 <div className="flex flex-col-reverse md:flex-row items-right content-start justify-start" id="about-app">
                     <div className="max-w-xl mt-8 md:mt-5 justify-center md:justify-none ml-0 p-2 md:ml-12">
-                        <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center md:text-left fade" direction="left">Coś dla każdego</h2>
-                        <p className="transition duration-300 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] md:max-w-3xl font-medium">Niezależnie czy wybierasz się na imprezę po raz pierwszy czy też jesteś ich koneserem - dzięki aplikacji PartyMeet znajdziesz imprezy dostosowane do ciebie, a także samemu możesz zostać hostem, zaszaleć z wyobraźnią i zgarniać nagrody za topkę w rankingu!</p>
+                        <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center md:text-left fade" direction="left">Impreza dla każdego</h2>
+                        <p className="transition duration-300 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] md:max-w-3xl font-medium">Niezależnie czy wybierasz się na imprezę po raz pierwszy czy też jesteś ich koneserem - dzięki aplikacji PartyMeet znajdziesz imprezy dostosowane do ciebie, a także samemu możesz zostać hostem, zarabiać oraz zaszaleć z wyobraźnią i zgarniać nagrody za topkę w rankingu!</p>
                     </div>
                     <div className="image w-100 flex md:block justify-center md:w-2/5 md:ml-32">
-                        <img src={RateBg} alt="mockup" />
+                        <img src={RateBg} alt="app rating" />
                     </div>
                 </div>
             </div>
@@ -28,11 +28,11 @@ const About = () => {
             <div className="mt-32">
                 <div className="flex flex-col md:flex-row items-right content-end justify-end">
                     <div className="image w-100 flex md:block justify-center md:w-2/5 md:mr-32">
-                        <img src={RentBg} alt="mockup" />
+                        <img src={RentBg} alt="phone with partymeet app" />
                     </div>
                     <div className="max-w-xl mt-8 md:mt-5 justify-center md:justify-none mr-0 p-2 md:mr-12">
-                        <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center md:text-left fade">Wynajmij miejsce na imprezę!</h2>
-                        <p className="transition duration-300 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] md:max-w-3xl font-medium">Nie masz gdzie zorganizować imprezy? A może chcesz odświeżyć trochę klimat imprez ze znajomymi?<br></br><br></br>Z aplikacją PartyMeet tymczasowo wynajmiesz miejsce pod dowolną imprezę!</p>
+                        <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center md:text-left fade">Wynajmij miejsce na swoją imprezę!</h2>
+                        <p className="transition duration-300 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] md:max-w-3xl font-medium">Nie masz gdzie zorganizować imprezy? A może chcesz odświeżyć trochę klimat imprez ze znajomymi?<br></br><br></br>Z aplikacją PartyMeet wynajmiesz miejsce pod dowolną imprezę bądź znajdziesz imprezy, do których będziesz mógł dołączyć ze znajomymi!</p>
                     </div>
                 </div>
             </div>
@@ -41,10 +41,10 @@ const About = () => {
                 <div className="flex flex-col-reverse md:flex-row items-right content-start justify-start" id="earnings">
                     <div className="max-w-xl mt-8 md:mt-5 justify-center md:justify-none ml-0 p-2 md:ml-12">
                         <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center md:text-left fade" direction="left">Całkowicie nowe możliwości zarobku</h2>
-                        <p className="transition duration-300 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] md:max-w-3xl font-medium">Posiadasz właśną nieruchomość albo chciałbyś szybko zarobić? Dzięki aplikacji PartyMeet możesz tymczasowo wynająć mieszkanie pod imprezę i zgarnąć szybki przelew!<br></br><br></br>Natomiast jeśli chcesz robić to regularnie, pamiętaj o odpowiednim przystosowaniu mieszkania do imprez, zostań czołowym hostem i pnij się na szczyt rankingu!</p>
+                        <p className="transition duration-300 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] md:max-w-3xl font-medium">Posiadasz właśną nieruchomość albo chciałbyś szybko zarobić? Dzięki aplikacji PartyMeet możesz tymczasowo wynająć mieszkanie pod imprezę i zgarnąć szybki przelew.<br></br><br></br>Natomiast jeśli chcesz robić to regularnie, pamiętaj o odpowiednim przystosowaniu mieszkania do imprez, zostań czołowym hostem i pnij się na szczyt rankingu!</p>
                     </div>
                     <div className="image w-100 flex md:block justify-center md:w-2/5 md:ml-32">
-                        <img src={MoneyBg} alt="mockup" />
+                        <img src={MoneyBg} alt="house with partymeet slogan" />
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ const About = () => {
             <div className="mt-32">
                 <div className="flex flex-col md:flex-row items-right content-end justify-end">
                     <div className="image w-100 flex md:block justify-center md:w-2/5 md:mr-32">
-                        <img src={Shield} alt="mockup" />
+                        <img src={Shield} alt="shield with partymeet logo" />
                     </div>
                     <div className="max-w-xl mt-8 md:mt-5 justify-center md:justify-none mr-0 p-2 md:mr-12">
                         <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center md:text-left fade">Bezpieczeństwo przede wszystkim</h2>
@@ -78,7 +78,7 @@ const About = () => {
                         <a><BsInstagram/></a>
                         <a><BsFillEnvelopeFill/></a>
                     </div>
-                    <p className="font-bold text-[11px] mt-6">Psst...na naszych socialach znajdziesz też zdjęcia z za kulis :)</p>
+                    <p className="font-bold text-[11px] mt-6">Psst...na naszych socialach znajdziesz też zdjęcia zza kulis :)</p>
                 </div>
             </div>
         </div>
