@@ -73,8 +73,8 @@ const About = () => {
                     Pobierz Whitepaper!
                     </button>
                     <div className="socials mt-[40px] flex justify-between items-center content-center">
-                        <a><BsFacebook/></a>
-                        <a><BsTwitter/></a>
+                        <a href="https://www.facebook.com/profile.php?id=100089915721321"><BsFacebook/></a>
+                        <a href="https://twitter.com/PartymeetMe"><BsTwitter/></a>
                         <a><BsInstagram/></a>
                         <a><BsFillEnvelopeFill/></a>
                     </div>
