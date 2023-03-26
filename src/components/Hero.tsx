@@ -12,7 +12,7 @@ const Hero = () => {
                     Wznosimy imprezy na wyższy level!
                 </h1>
                 <h2 className="text-[#fafafa] font-bold text-[14px] md:text-[20px] max-w-lg">
-                    Dzięki aplikacji Partymeet wynajmiesz miejsce na imprezę, najdziesz najgorętsze eventy w okolicy, a także poznasz nowych znajomych!
+                    Dzięki aplikacji Partymeet wynajmiesz miejsce na imprezę, znajdziesz najgorętsze eventy w okolicy, a także poznasz nowych znajomych!
                 </h2>
                 <div className="buttons mt-12">
                 <button type="button" 
