@@ -13,6 +13,7 @@ import {BsFacebook, BsFillEnvelopeFill, BsInstagram, BsTwitter} from 'react-icon
 const About = () => {
     return(
         <div className="bg-[#FAFAFA] p-12 w-100 m-0 max-w-100">
+            <div id="read-about-app"></div>
             <div className="mt-32">
                 <div className="flex flex-col-reverse md:flex-row items-right content-start justify-start" id="about-app">
                     <div className="max-w-xl mt-8 md:mt-5 justify-center md:justify-none ml-0 p-2 md:ml-12">
@@ -37,8 +38,9 @@ const About = () => {
                 </div>
             </div>
 
+            <div id="read-about-earnings"></div>
             <div className="mt-32">
-                <div className="flex flex-col-reverse md:flex-row items-right content-start justify-start" id="earnings">
+                <div className="flex flex-col-reverse md:flex-row items-right content-start justify-start">
                     <div className="max-w-xl mt-8 md:mt-5 justify-center md:justify-none ml-0 p-2 md:ml-12">
                         <h2 className="transition duration-200 text-[24px] md:text-[40px] font-bold text-[#262626] text-center md:text-left fade" direction="left">Całkowicie nowe możliwości zarobku</h2>
                         <p className="transition duration-300 mt-6 text-[12px] sm:text-[14px] md:text-[20px] text-[#737373] md:max-w-3xl font-medium">Posiadasz właśną nieruchomość albo chciałbyś szybko zarobić? Dzięki aplikacji PartyMeet możesz tymczasowo wynająć mieszkanie pod imprezę i zgarnąć szybki przelew.<br></br><br></br>Natomiast jeśli chcesz robić to regularnie, pamiętaj o odpowiednim przystosowaniu mieszkania do imprez, zostań czołowym hostem i pnij się na szczyt rankingu!</p>
@@ -81,6 +83,7 @@ const About = () => {
                     <p className="font-bold text-[11px] mt-6">Psst...na naszych socialach znajdziesz też zdjęcia zza kulis :)</p>
                 </div>
             </div>
+            <div id="contact-us"></div>
         </div>
     )
 }

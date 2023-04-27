@@ -41,9 +41,9 @@ const Header = () => {
 					</button>
 				</div>
 				<ul className="hidden lg:ml-[75px] lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#about-app">Magia Aplikacji</a></li>
-					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#earnings">Zarabiaj</a></li>
-					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#contact">Kontakt</a></li>
+					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#read-about-app">Magia Aplikacji</a></li>
+					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#read-about-earnings">Zarabiaj</a></li>
+					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#contact-us">Kontakt</a></li>
 				</ul>
 				<a className="nav-btn lg:flex hidden lg:inline-block lg:ml-auto lg:mr-12 transition duration-200" href="#">Zaloguj się</a>
 				<a className="hover:bg-[#f1b18e] nav-btn lg:flex hidden lg:inline-block w-[175px] lg:mr-24 h-[60px] bg-[#E77C40] transition duration-200" href="#">Zarejestruj się!&emsp;<BsArrowRightShort size={24} fontWeight={700}/></a>

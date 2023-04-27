@@ -2,7 +2,7 @@ import fs from 'node:fs/promises'
 import express from 'express'
 
 // Constants
-const isProduction = true
+const isProduction = false
 const port = process.env.PORT || 5173
 const base = process.env.BASE || '/'
 

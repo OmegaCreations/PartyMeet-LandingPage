@@ -10,10 +10,13 @@ $(function(){
             var direction = $(this).attr('direction') == 'left' ? 'translateX(-30px)' : 'translateX(30px)';
             
             // If the element is completely within bounds of the window, fade it in
-            if (objectBot < windowBot) { //object comes into view (scrolling down)
-              if ($(this).css("opacity")==0) {$(this).css('opacity', '1').css('transform', 'translateX(0)');}
+            if (objectBot < windowBot-50) { //object comes into view (scrolling down)
+              if ($(this).css("opacity")==0)
+              $(this).css('opacity', '1').css('transform', 'translateX(0)').css('filter', 'blur(0px)');
+
             } else { // object goes out of view (scrolling up)
-              if ($(this).css("opacity")==1) {$(this).css('opacity', '0').css('transform', direction);}
+              if ($(this).css("opacity")==1)
+              $(this).css('opacity', '0').css('transform', direction).css('filter', 'blur(5px)');
             }
           });
         }).scroll(); //invoke scroll-handler on page-load
