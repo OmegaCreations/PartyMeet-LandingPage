@@ -91,6 +91,7 @@ const NewsletterSubscribe = ({status, message, onValidated}) => {
             <div className="my-10 md:mx-8 mx-0 w-full sm:w-full md:w-full lg:w-2/5">
                 <form className="flex flex-row">
                     <input
+                        onSubmit={(e) => {e.preventDefault()}}
                         onChange={(e) => {setEmail(e?.target?.value ?? '')}}
                         onKeyUp={(e) => handleInputKeyEvent(e)}
                         className="rounded-l text-grey-darker text-grey-darkest h-16 w-full border border-gray-100 bg-gray-100 py-2 px-4 text-lg font-normal text-gray-600 outline-none" 
@@ -98,6 +99,7 @@ const NewsletterSubscribe = ({status, message, onValidated}) => {
                         placeholder="Twój mail :)" />
                     <span className="text-grey-100 flex items-center rounded rounded-l-none border-0 bg-gray-100 px-0">
                         <button 
+                            type="submit"
                             onClick={handleFormSubmit}
                             className="hover:bg-gredient-light rounded-r bg-[#E77C40] h-full w-[135px] py-2 px-6 text-[14px] font-normal text-white">Zapisz się</button>
                     </span>
