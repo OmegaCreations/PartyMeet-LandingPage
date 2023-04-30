@@ -18,7 +18,7 @@ const NewsletterSubscribe = ({status, message, onValidated}) => {
 
     
     // Handle submit
-    const handleFormSubmit = () => {
+    const handleFormSubmit = (e) => {
         setError(null);
 
         // Check if is there anything
@@ -33,6 +33,7 @@ const NewsletterSubscribe = ({status, message, onValidated}) => {
         if(email && (email.indexOf("@") > -1) && isFormValidated)
         setOpen(!open);
         
+        e.preventDefault();
         return email && (email.indexOf("@") > -1) && isFormValidated;
     }
 
@@ -41,7 +42,7 @@ const NewsletterSubscribe = ({status, message, onValidated}) => {
         setError(null);
         if(e.keyCode === 13){
             e.preventDefault();
-            handleFormSubmit();
+            handleFormSubmit(e);
         }
     }
 
