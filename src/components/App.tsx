@@ -33,7 +33,7 @@ const App = () => {
           <Hero />
           <About />
           <MailForm />
-          <Reviews />
+          <Reviews /> c  
           <Newsletter />
           <Footer />
         </>
