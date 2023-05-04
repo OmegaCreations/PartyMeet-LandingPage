@@ -49,8 +49,8 @@ const Header = () => {
 					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#read-about-earnings">Zarabiaj</a></li>
 					<li><a className="nav-link text-sm hover:text-gray-500 transition duration 200" href="#contact-us">Kontakt</a></li>
 				</ul>
-				<a className="nav-btn lg:flex hidden lg:inline-block lg:ml-auto lg:mr-12 transition duration-200 hover:pointer" onClick={handleLogin}>Zaloguj się</a>
-				<a className="hover:bg-[#f1b18e] nav-btn lg:flex hidden lg:inline-block w-[175px] lg:mr-24 h-[60px] bg-[#E77C40] transition duration-200 hover:pointer" onClick={handleLogin}>Zarejestruj się!&emsp;<BsArrowRightShort size={24} fontWeight={700}/></a>
+				<a className="nav-btn lg:flex hidden lg:inline-block lg:ml-auto lg:mr-12 transition duration-200 hover:pointer" style={{cursor: 'pointer'}} onClick={handleLogin}>Zaloguj się</a>
+				<a className="hover:bg-[#f1b18e] nav-btn lg:flex hidden lg:inline-block w-[175px] lg:mr-24 h-[60px] bg-[#E77C40] transition duration-200 hover:pointer" style={{cursor: 'pointer'}} onClick={handleLogin}>Zarejestruj się!&emsp;<BsArrowRightShort size={24} fontWeight={700}/></a>
 			</nav>
 			<div className={toggle ? 'navbar-menu relative z-50' : 'navbar-menu relative z-50 hidden'}>
 				<div onClick={() => setToggle(!toggle)} className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
@@ -80,8 +80,8 @@ const Header = () => {
 					</div>
 					<div className="mt-auto">
 						<div className="pt-6">
-							<a className="block px-4 py-[12px] mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100" onClick={handleLogin}>Zaloguj się</a>
-							<a className="flex items-center justify-center py-[12px] hover:py-[10px] mb-2 leading-loose text-xs text-white font-semibold bg-[#E77C40] hover:bg-[#FAFAFA] hover:text-[#E77C40] hover:border-2 hover:border-[#E77C40] transition duration-200" onClick={handleLogin}>Zarejestruj się!&emsp;<BsArrowRightShort size={16} fontWeight={700}/></a>
+							<a className="block px-4 py-[12px] mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100" style={{cursor: 'pointer'}} onClick={handleLogin}>Zaloguj się</a>
+							<a className="flex items-center justify-center py-[12px] hover:py-[10px] mb-2 leading-loose text-xs text-white font-semibold bg-[#E77C40] hover:bg-[#FAFAFA] hover:text-[#E77C40] hover:border-2 hover:border-[#E77C40] transition duration-200" style={{cursor: 'pointer'}} onClick={handleLogin}>Zarejestruj się!&emsp;<BsArrowRightShort size={16} fontWeight={700}/></a>
 						</div>
 						<p className="my-4 text-xs text-center text-gray-400">
 							<span>Copyright © 2023 PartyMeet. Wszelkie prawa zastrzeżone.</span>
