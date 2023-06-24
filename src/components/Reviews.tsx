@@ -7,7 +7,8 @@ import Placeholder from "../assets/images/placeholder.jpg"
  */
 
 export default function Reviews(){
-    return(
+    const mamy_recenzje = false;
+    if(mamy_recenzje) return(
         <>
             <div className="bg-white mb-8 py-16 px-2 sm:px-12 flex flex-col items-center content-center justify-center">
                 <h2 className="transition duration-200 text-[32px] md:text-[40px] font-bold text-[#262626] text-center">Co o nas mówią</h2>
