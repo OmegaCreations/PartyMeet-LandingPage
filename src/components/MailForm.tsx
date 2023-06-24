@@ -15,19 +15,19 @@ const MailForm = () => {
     
     // Sending mail form with Emailjs
     const sendFeedback = (e) => {
-        const templateId = 'template_78oz3nn';
+        const templateId = import.meta.env.VITE_PUBLIC_MAILCHIMP_TEMPLATE;
 
         e.preventDefault() // Dont reload to send request first
 
         emailjs.send(
-          'service_xmopd86', // Service type
+          import.meta.env.VITE_MAILCHIMP_SERVICE_ID, // Service type
           templateId, // Id of template
           { // passed variables
             message: text, 
             from_name: topic, 
             reply_to: mail
         },
-        '7LbUmWpLp5H8k_6-C'
+        import.meta.env.VITE_PUBLIC_MAILCHIMP_KEY
         ).then(res => {
             console.log('Email successfully sent!')
             window.location.reload()
