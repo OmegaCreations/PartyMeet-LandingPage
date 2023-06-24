@@ -4,7 +4,7 @@ import * as dotenv from 'dotenv'
 dotenv.config();
 
 // Constants
-const isProduction = false
+const isProduction = true
 const port = process.env.PORT || 5173
 const base = process.env.BASE || '/'
 
