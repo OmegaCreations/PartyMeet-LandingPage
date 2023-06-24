@@ -33,7 +33,7 @@ const Header = () => {
     return(
 		<div className={background ? "fixed top-0 w-full z-[100] transition duration-200 bg-[#1a1a1a]" : "fixed top-0 w-full z-[100] transition duration-200"}>
 			<nav className="navbar relative px-4 py-4 flex justify-between items-center justify-center bg-none">
-				<a className="navbar-brand lg:inline-block md:ml-[100px] lg:ml-24" href="#">
+				<a className="navbar-brand lg:inline-block md:ml-[100px] lg:ml-24" href="/">
 					PartyMeet.me
 				</a>
 				<div className="lg:hidden">
@@ -83,9 +83,6 @@ const Header = () => {
 							<a className="block px-4 py-[12px] mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100" style={{cursor: 'pointer'}} onClick={handleLogin}>Zaloguj się</a>
 							<a className="flex items-center justify-center py-[12px] hover:py-[10px] mb-2 leading-loose text-xs text-white font-semibold bg-[#E77C40] hover:bg-[#FAFAFA] hover:text-[#E77C40] hover:border-2 hover:border-[#E77C40] transition duration-200" style={{cursor: 'pointer'}} onClick={handleLogin}>Zarejestruj się!&emsp;<BsArrowRightShort size={16} fontWeight={700}/></a>
 						</div>
-						<p className="my-4 text-xs text-center text-gray-400">
-							<span>Copyright © 2023 PartyMeet. Wszelkie prawa zastrzeżone.</span>
-						</p>
 					</div>
 				</nav>
 			</div>

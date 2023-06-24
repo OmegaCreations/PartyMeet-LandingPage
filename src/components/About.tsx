@@ -77,10 +77,9 @@ const About = () => {
                     <div className="socials mt-[40px] flex justify-between items-center content-center">
                         <a href="https://www.facebook.com/profile.php?id=100089915721321"><BsFacebook/></a>
                         <a href="https://twitter.com/PartymeetMe"><BsTwitter/></a>
-                        <a><BsInstagram/></a>
-                        <a><BsFillEnvelopeFill/></a>
+                        <a href="https://www.instagram.com/partymeet.me/"><BsInstagram/></a>
                     </div>
-                    <p className="font-bold text-[11px] mt-6">Psst...na naszych socialach znajdziesz też zdjęcia zza kulis :)</p>
+                    <p className="font-bold text-[11px] mt-6">Psst...na naszych socialach znajdziesz też zdjęcia zza kulis</p>
                 </div>
             </div>
             <div id="contact-us"></div>

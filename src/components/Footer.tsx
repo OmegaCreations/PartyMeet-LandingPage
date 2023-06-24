@@ -10,8 +10,7 @@ export default function Footer(){
             <div className="socials w-full md:w-auto flex justify-between items-center content-center">
                 <a href="https://www.facebook.com/profile.php?id=100089915721321"><BsFacebook size={18}/></a>
                 <a href="https://twitter.com/PartymeetMe"><BsTwitter size={18}/></a>
-                <a><BsInstagram size={18}/></a>
-                <a><BsFillEnvelopeFill size={18}/></a>
+                <a href="https://www.instagram.com/partymeet.me/"><BsInstagram size={18}/></a>
             </div>
         </div>
         </>

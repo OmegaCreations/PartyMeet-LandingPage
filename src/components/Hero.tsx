@@ -5,23 +5,27 @@ import HeroBg from '../assets/images/hero_bg.png'
 
 const Hero = () => {
 
+    const handleLogin = () => {
+		window.location.replace('https://app.partymeet.me');
+	}
+
     return(
         <header className="header w-full h-screen flex items-center" style={{'backgroundImage': `url(${HeroBg})`}}>
             <div className="container md:max-w-3xl ml-3 md:ml-[110px]">
-                <h1 className="font-black text-white uppercase text-[32px] sm:text-[48px] md:text-[64px]">
+                <h1 className="font-black text-white uppercase sm:text-[48px] md:text-[64px]">
                     Wznosimy imprezy na wyższy level!
                 </h1>
                 <h2 className="text-[#fafafa] font-bold text-[14px] md:text-[20px] max-w-lg">
                     Dzięki aplikacji Partymeet wynajmiesz miejsce na imprezę, znajdziesz najgorętsze eventy w okolicy, a także poznasz nowych znajomych!
                 </h2>
                 <div className="buttons mt-12">
-                <button type="button" 
+                <button onClick={handleLogin} type="button" 
                         className="transition duration-200 hover:bg-[#cc5a1a] inline-block font-bold text-white text-[12px] sm:text-[14px] rounded-full bg-[#E77C40] w-[125px] md:w-[200px] h-[60px] sm:ml-4">
                     Znajdź imprezę
                 </button>
-                <button type="button" 
+                <button type="button"
                         className="transition duration-200 hover:border-[#cc5a1a] hover:text-[#cc5a1a] inline-block font-bold text-[#E77C40] text-[12px] sm:text-[14px] rounded-full border-2 border-[#E77C40] bg-none w-[125px] sm:w-[145px] h-[60px] ml-2 sm:ml-4">
-                    O projekcie
+                    <a href="#read-about-app">O projekcie</a>
                 </button>
                 </div>
             </div>
