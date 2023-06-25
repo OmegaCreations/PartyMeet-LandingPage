@@ -6,7 +6,7 @@ import Placeholder from "../assets/images/placeholder.jpg"
  * TODO: get reviews and maybe setup one reusable component
  */
 
-export default function Reviews(){
+const Reviews = () => {
     const mamy_recenzje = false;
     if(mamy_recenzje) return(
         <>
@@ -43,3 +43,5 @@ export default function Reviews(){
         </>
     )
 }
+
+export default Reviews
