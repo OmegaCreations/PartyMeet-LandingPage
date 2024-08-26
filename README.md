@@ -4,8 +4,6 @@
 
 # Partymeet Landing Page
 
-You can preview page here --> www.partymeet.me
-
 A partymeet.me is a SSR landing page made in React.js with Vite bundler.
 
 Technologies used:
